@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 // app.use(bodyParser.json())
 // --> Add this
 // ** MIDDLEWARE ** //
-const whitelist = ['http://localhost:3000', 'http://localhost:8080', 'https://lit-castle-72231.herokuapp.com/']
+const whitelist = ['http://localhost:3000', 'http://localhost:8080', 'https://rocky-shore-55376.herokuapp.com']
 const corsOptions = {
   origin: function (origin, callback) {
     console.log("** Origin of request " + origin)
