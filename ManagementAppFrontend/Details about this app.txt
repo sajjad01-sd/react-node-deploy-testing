@@ -1,0 +1,36 @@
+                                            // Front-end
+
+//page
+-->Login using, Login context and variable from helpers.
+-->I controlled all privateRoute with pages/privateRoute.js
+
+//color
+-->i fixed body color for pages(index.js -> body{}). instead of /,/dashboard
+
+// Class issue,
+-->LoginContext provide active and updateActiveClass for set active class.
+-->need to clear page structure expend issue or implement
+
+//table 
+--> I get the table data from every single page and render it to the table components(components/table). you can find out only table components from components/table/tableComponents.
+-->LStableData meaning Lead server data which come from LeadServer page.
+--> employee also taking same lead server sticky table
+--> every table geting own style from every random pages into tableStyle props
+
+//Style and responsive.
+-->I used styled-components and media-queries for responsive every page or components. Each components or page contain style below the React JSX.
+-->I used createGlobal style method of style-components instead of index.css and i import it index.js (src/_fonts&GlobalStyle/).
+
+// Export data
+--> Data export component, Rendered on PageStructure1 and passing data props is COLUMNS(LSCOLUMS and OthersTableColumns) and Data(LSDATA and OthersData).
+--> I also design it with styled component
+
+// Import Data 
+--> for uploading sheet, you can find out component into the components/UploadSeet folder.
+//ThemeProvider sent Nav data, theme and Page title to PageStructure1 for each Page of App.
+
+
+// Optional (my work)
+//Delete tt.txt
+// Handle error for fetching data or any route
+// front end 2 is using one for front end 
